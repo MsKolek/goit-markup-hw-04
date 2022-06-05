@@ -128,6 +128,7 @@ h1 {
   align-self: center;
   flex-wrap: wrap;
   margin: 0;
+  padding-bottom: 30px;
 }
 
 .main-button {
