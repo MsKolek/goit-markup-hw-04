@@ -65,12 +65,12 @@ a {
 .links:focus {
   color: #2196f3;
 }
-.mail-icon:hover,
-.mail-icon:focus {
+.links:hover .mail-icon,
+.links:focus .mail-icon {
   fill: #2196f3;
 }
-.telephone-icon:hover,
-.telephone-icon:focus {
+.links:hover .telephone-icon,
+.links:focus .telephone-icon {
   fill: #2196f3;
 }
 .contact-navigation {
@@ -261,8 +261,8 @@ h2 {
 .members-social-links a {
   fill: #afb1b8;
 }
-.members-social-links a:hover,
-.members-social-links a:focus {
+.members-social-links:hover .social-icon,
+.members-social-links:focus .social-icon {
   fill: #ffffff;
 }
 .clients-list {
@@ -285,17 +285,18 @@ h2 {
   border-radius: 4px;
   cursor: pointer;
 }
+.clients-images {
+  fill: #afb1b8;
+}
 .clients-list li:hover,
 .clients-list li:focus {
   border: 1px solid #2196f3;
 }
-.clients-images:hover,
-.clients-images:focus {
+.clients-list li:hover .clients-images,
+.clients-list li:focus .clients-images {
   fill: #2196f3;
 }
-.clients-images {
-  fill: #afb1b8;
-}
+
 footer {
   background-color: #2f303a;
 }
